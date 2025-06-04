@@ -51,10 +51,10 @@
   <script>
     function calculate() {
     var audi = document.getElementById("audi").value.trim() !== '' ? parseFloat(document.getElementById("audi").value) : 0;
-    var rk1 = document.getElementById("rk1").value.trim() !== '' ? parseInt(document.getElementById("rk1").value) : 0;
-    var rk2 = document.getElementById("rk2").value.trim() !== '' ? parseInt(document.getElementById("rk2").value) : 0;
-    var emtihan = document.getElementById("emtihan").value.trim() !== '' ? parseInt(document.getElementById("emtihan").value) : 0;
-    var qalau = parseInt(document.getElementById("qalau").value);
+    var rk1 = document.getElementById("rk1").value.trim() !== '' ? parseFloat(document.getElementById("rk1").value) : 0;
+    var rk2 = document.getElementById("rk2").value.trim() !== '' ? parseFloat(document.getElementById("rk2").value) : 0;
+    var emtihan = document.getElementById("emtihan").value.trim() !== '' ? parseFloat(document.getElementById("emtihan").value) : 0;
+    var qalau = parseFloat(document.getElementById("qalau").value);
     var resultTextArea = document.getElementById("result");
     resultTextArea.value = "";
 
